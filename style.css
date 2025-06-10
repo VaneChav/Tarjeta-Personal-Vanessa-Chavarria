@@ -10,11 +10,29 @@ body {
   align-items: center;
   height: 100vh;
   padding: 1rem;
- font-family: "Hind Vadodara", sans-serif;
+  font-family: "Hind Vadodara", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+button {
+  border: none;
 }
 
 .card {
+  display: grid;
   background-color: darkslategray;
+  border-radius: 1rem;
+  overflow: hidden;
+  max-width: 200px;
 }
 
 .header {
@@ -22,6 +40,17 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(2, 41, 53);
+  padding: 1rem;
+}
+
+.brand {
+  max-width: 160px;
+}
+
+.icon{
+  padding: .5rem;
+  border-radius: 8px;
+  background-color: white;
 }
 
 .main {
@@ -29,6 +58,14 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: cadetblue;
+}
+
+.main div:first-child {
+  background-color: cornflowerblue;
+}
+
+.main div:last-child {
+  background-color: darkslateblue;
 }
 
 .footer {
